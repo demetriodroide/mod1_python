@@ -1,49 +1,38 @@
-""""
-# Solicitar la edad al usuario
-edad = int(input("Que edad tienes ?"))
-# Convertir la entrada a entero
+print("=== PROGRAMA: GENERADOR DE PATRÓN TRIANGULAR ===\n")
 
-int(edad)
-# Evaluar la edad usando if-elif-else
+# Solicitar al usuario la altura del triángulo
+# Escribe aquí tu código para pedir el número al usuario
 
-if edad > 18:
-    print("Eres mayor de edad")
-elif edad < 18:
-    print ("Eres menor de edad")
-else:
-    print("tienes 18 años exactos")
+altura = int(input("introduce un numero: "))
 
-# Mostrar el mensaje correspondiente
-
-print(f" 12Tienes exactamente {edad} años")
-"""
-
-# LOGIN CON NÚMERO MÁXIMO DE INTENTOS
-
-# Aquí podemos crear una aplicación de consola
-# que pida al usuario email y password,
-# si falla tres veces detiene el programa y no deja continuar
-# si acierta le deja usar la aplicación
-
-VALID_EMAIL = ""
-VALID_PASSWORD = ""
-
-def login():
-# bucle for para máximo 3 intentos fallidos
-# leer por input
-for i in input(VALID_EMAIL) 
-return True
-
-def elegir_opcion():
-print("")
-opcion = input()
-return opcion
+# Convertir la entrada a número entero
+# Escribe aquí tu código para la conversión
 
 
-if login():
-opcion = elegir_opcion()
-# hacer algo en base a la opcion elegida por el usuario:
-# if...
-# elif...
-# elif...
-# else+
+print(f"\nGenerando patrón triangular de altura {altura}:")
+print("-" * 30)
+
+# Generar el patrón usando bucles for anidados
+# Bucle externo: para cada fila (desde 1 hasta la altura)
+# Escribe aquí tu código para el bucle externo
+for i in range(1,altura + 1):
+         
+    print (altura)
+    
+
+        
+            
+    # Bucle interno: para cada número en la fila actual (desde 1 hasta el número de fila)
+    # Escribe aquí tu código para el bucle interno
+    
+        # Imprimir cada número seguido de un espacio (sin salto de línea)
+        # Escribe aquí tu código para imprimir el número
+
+
+    # Después de completar una fila, hacer un salto de línea
+    # Escribe aquí tu código para el salto de línea
+
+
+print("-" * 30)
+print("Patrón completado!")
+
