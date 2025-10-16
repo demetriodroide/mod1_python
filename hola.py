@@ -5,6 +5,7 @@ print("=== PROGRAMA: GENERADOR DE PATRÓN TRIANGULAR ===\n")
 
 altura = int(input("introduce un numero: "))
 
+ç
 # Convertir la entrada a número entero
 # Escribe aquí tu código para la conversión
 

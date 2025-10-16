@@ -3,6 +3,7 @@ print("=== PROGRAMA: GENERADOR DE PATRÓN TRIANGULAR ===\n")
 # Solicitar al usuario la altura del triángulo
 # Escribe aquí tu código para pedir el número al usuario
 altura = int(input("Introduce la altura del triángulo: "))
+ç
 
 # Convertir la entrada a número entero
 # Escribe aquí tu código para la conversión
