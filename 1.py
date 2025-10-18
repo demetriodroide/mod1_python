@@ -1,30 +1,43 @@
-print("=== PROGRAMA: GENERADOR DE PATRÓN TRIANGULAR ===\n")
+print("=== PROGRAMA: CALCULADORA DE ÁREA DE CÍRCULO ===\n")
+# Definir la función calcular_area_circulo
+def calcular_area_circulo(radio):
+    # 1. Definir el valor de pi    
+    # Escribe aquí tu código
+    pi = 3.14159 
+    # 2. Calcular el área usando la fórmula: π * radio²
+    # Escribe aquí tu código
+    area_circulo = pi * (radio ** 2)
+    # 3. Devolver el resultado
+    # Escribe aquí tu código
+    return area_circulo
+print("=== PRUEBAS DE LA FUNCIÓN ===")
+# Prueba 1: radio = 5
+radio1 = 5
+# Llamar a la función y guardar el resultado
+# Escribe aquí tu código
+area1 = calcular_area_circulo(radio1)
+print(f"Radio: {radio1} -> Área: {area1}")
+# Prueba 2: radio = 3
+radio2 = 3
+# Llamar a la función y guardar el resultado
+# Escribe aquí tu código
+area2 = calcular_area_circulo(radio2)
+print(f"Radio: {radio2} -> Área: {area2}")
+# Prueba 3: radio = 10.5
+radio3 = 10.5
+# Llamar a la función y guardar el resultado
+# Escribe aquí tu código
+area3 = calcular_area_circulo(radio3)
+print(f"Radio: {radio3} -> Área: {area3}")
 
-# Solicitar al usuario la altura del triángulo
-# Escribe aquí tu código para pedir el número al usuario
-altura = int(input("Introduce la altura del triángulo: "))
-ç
-
-# Convertir la entrada a número entero
-# Escribe aquí tu código para la conversión
-# altura_int = int(altura)
-
-print(f"\nGenerando patrón triangular de altura {altura}:")
-print("-" * 30)
-
-# Generar el patrón usando bucles for anidados
-# Bucle externo: para cada fila (desde 1 hasta la altura)
-for fila in range(1, altura + 1):
-    # Bucle interno: para cada número en la fila actual (desde 1 hasta el número de fila)
-    for numero in range(1, fila + 1):
-
-        # Imprimir cada número seguido de un espacio (sin salto de línea)
-        print(numero, end=" ")
-
-
-    # Después de completar una fila, hacer un salto de línea
-    print()
-
-
-print("-" * 30)
-print("Patrón completado!")
+print("\n=== MODO INTERACTIVO ===")
+# Solicitar al usuario un radio y calcular su área
+# Escribe aquí tu código para pedir el radio al usuario
+radio4 = input("Dame un radio: ")
+# Convertir la entrada a número decimal
+# Escribe aquí tu código
+radio_usuario = float(radio4)
+# Llamar a la función con el radio del usuario
+# Escribe aquí tu código
+area4 = calcular_area_circulo(radio_usuario)
+print(f"El área radio {radio_usuario} es: {area4}")
